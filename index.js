@@ -112,6 +112,6 @@ class BallGame {
 }
 
 const numBalls = 15;
-const timing = 5;
+const timing = 2;
 const ballGame = new BallGame(numBalls);
 ballGame.init();

@@ -22,3 +22,10 @@ body {
   border-radius: 50%;
   background-color: #20b2aa;
 }
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 350px;
+    height: 350px;
+  }
+}
