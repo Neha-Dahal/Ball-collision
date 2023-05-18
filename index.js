@@ -12,8 +12,8 @@ class BallGame {
   createRandomBall() {
     const x = this.randomize(0, this.container.offsetWidth);
     const y = this.randomize(0, this.container.offsetHeight);
-    const dx = this.randomize(-2, 2);
-    const dy = this.randomize(-2, 2);
+    const dx = this.randomize(1, 5);
+    const dy = this.randomize(1, 5);
     const radius = this.randomize(10, 20);
     const size = 2 * radius;
     return {
@@ -112,6 +112,6 @@ class BallGame {
 }
 
 const numBalls = 15;
-const timing = 2;
+const timing = 10;
 const ballGame = new BallGame(numBalls);
 ballGame.init();
