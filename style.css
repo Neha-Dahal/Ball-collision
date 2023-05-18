@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 20px auto;
+  background-color: #d3f7f5;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #20b2aa;
+}
